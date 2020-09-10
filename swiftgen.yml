@@ -1,0 +1,14 @@
+strings:
+  inputs: freezy/Resources/en.lproj/Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    output: freezy/Generated/L10n.swift
+
+xcassets:
+  inputs:
+    - freezy/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: freezy/Generated/Assets.swift
+      params:
+        forceProvidesNamespaces: true

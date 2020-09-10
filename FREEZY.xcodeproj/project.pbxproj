@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1FD8E1AF2509AC9100A1E731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8E1AE2509AC9100A1E731 /* AppDelegate.swift */; };
 		1FD8E1B12509AC9100A1E731 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8E1B02509AC9100A1E731 /* SceneDelegate.swift */; };
-		1FD8E1B32509AC9100A1E731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8E1B22509AC9100A1E731 /* ViewController.swift */; };
-		1FD8E1B62509AC9100A1E731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8E1B42509AC9100A1E731 /* Main.storyboard */; };
 		1FD8E1B82509AC9400A1E731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8E1B72509AC9400A1E731 /* Assets.xcassets */; };
 		1FD8E1BB2509AC9400A1E731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8E1B92509AC9400A1E731 /* LaunchScreen.storyboard */; };
 		1FD8E1C62509AC9400A1E731 /* FREEZYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8E1C52509AC9400A1E731 /* FREEZYTests.swift */; };
+		1FD8E1D32509B09500A1E731 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD8E1D22509B09500A1E731 /* Realm */; };
+		1FD8E1D52509B09500A1E731 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD8E1D42509B09500A1E731 /* RealmSwift */; };
+		1FD8E1D82509B0CA00A1E731 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD8E1D72509B0CA00A1E731 /* SnapKit */; };
+		1FD8E1DB2509B18000A1E731 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD8E1DA2509B18000A1E731 /* RxSwift */; };
+		1FD8E1DD2509B18000A1E731 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD8E1DC2509B18000A1E731 /* RxCocoa */; };
+		1FD8E1E02509B1A400A1E731 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD8E1DF2509B1A400A1E731 /* Toast */; };
+		1FD8E1E32509B1F300A1E731 /* Gedatsu in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD8E1E22509B1F300A1E731 /* Gedatsu */; };
+		1FD8E1EA2509B44200A1E731 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8E1EC2509B44200A1E731 /* Localizable.strings */; };
+		1FD8E1EE2509B49800A1E731 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8E1ED2509B49800A1E731 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +37,14 @@
 		1FD8E1AB2509AC9100A1E731 /* FREEZY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FREEZY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD8E1AE2509AC9100A1E731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FD8E1B02509AC9100A1E731 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FD8E1B22509AC9100A1E731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FD8E1B52509AC9100A1E731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FD8E1B72509AC9400A1E731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD8E1BA2509AC9400A1E731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FD8E1BC2509AC9400A1E731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FD8E1C12509AC9400A1E731 /* FREEZYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FREEZYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD8E1C52509AC9400A1E731 /* FREEZYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FREEZYTests.swift; sourceTree = "<group>"; };
 		1FD8E1C72509AC9400A1E731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD8E1EB2509B44200A1E731 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1FD8E1ED2509B49800A1E731 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD8E1E02509B1A400A1E731 /* Toast in Frameworks */,
+				1FD8E1D82509B0CA00A1E731 /* SnapKit in Frameworks */,
+				1FD8E1D52509B09500A1E731 /* RealmSwift in Frameworks */,
+				1FD8E1DD2509B18000A1E731 /* RxCocoa in Frameworks */,
+				1FD8E1DB2509B18000A1E731 /* RxSwift in Frameworks */,
+				1FD8E1D32509B09500A1E731 /* Realm in Frameworks */,
+				1FD8E1E32509B1F300A1E731 /* Gedatsu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +93,9 @@
 		1FD8E1AD2509AC9100A1E731 /* FREEZY */ = {
 			isa = PBXGroup;
 			children = (
-				1FD8E1AE2509AC9100A1E731 /* AppDelegate.swift */,
-				1FD8E1B02509AC9100A1E731 /* SceneDelegate.swift */,
-				1FD8E1B22509AC9100A1E731 /* ViewController.swift */,
-				1FD8E1B42509AC9100A1E731 /* Main.storyboard */,
-				1FD8E1B72509AC9400A1E731 /* Assets.xcassets */,
-				1FD8E1B92509AC9400A1E731 /* LaunchScreen.storyboard */,
-				1FD8E1BC2509AC9400A1E731 /* Info.plist */,
+				1FD8E1E62509B37100A1E731 /* Sources */,
+				1FD8E1E72509B37600A1E731 /* Generated */,
+				1FD8E1D02509ACB700A1E731 /* Resources */,
 			);
 			path = FREEZY;
 			sourceTree = "<group>";
@@ -99,6 +109,34 @@
 			path = FREEZYTests;
 			sourceTree = "<group>";
 		};
+		1FD8E1D02509ACB700A1E731 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8E1BC2509AC9400A1E731 /* Info.plist */,
+				1FD8E1B72509AC9400A1E731 /* Assets.xcassets */,
+				1FD8E1EC2509B44200A1E731 /* Localizable.strings */,
+				1FD8E1B92509AC9400A1E731 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FD8E1E62509B37100A1E731 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8E1AE2509AC9100A1E731 /* AppDelegate.swift */,
+				1FD8E1B02509AC9100A1E731 /* SceneDelegate.swift */,
+				1FD8E1ED2509B49800A1E731 /* MainViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1FD8E1E72509B37600A1E731 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,12 +147,23 @@
 				1FD8E1A72509AC9100A1E731 /* Sources */,
 				1FD8E1A82509AC9100A1E731 /* Frameworks */,
 				1FD8E1A92509AC9100A1E731 /* Resources */,
+				1FD8E1E42509B34F00A1E731 /* SwiftLint */,
+				1FD8E1E52509B35900A1E731 /* SwiftGen */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FREEZY;
+			packageProductDependencies = (
+				1FD8E1D22509B09500A1E731 /* Realm */,
+				1FD8E1D42509B09500A1E731 /* RealmSwift */,
+				1FD8E1D72509B0CA00A1E731 /* SnapKit */,
+				1FD8E1DA2509B18000A1E731 /* RxSwift */,
+				1FD8E1DC2509B18000A1E731 /* RxCocoa */,
+				1FD8E1DF2509B1A400A1E731 /* Toast */,
+				1FD8E1E22509B1F300A1E731 /* Gedatsu */,
+			);
 			productName = FREEZY;
 			productReference = 1FD8E1AB2509AC9100A1E731 /* FREEZY.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +214,13 @@
 				Base,
 			);
 			mainGroup = 1FD8E1A22509AC9100A1E731;
+			packageReferences = (
+				1FD8E1D12509B09500A1E731 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				1FD8E1D62509B0CA00A1E731 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1FD8E1D92509B18000A1E731 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				1FD8E1DE2509B1A400A1E731 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				1FD8E1E12509B1F300A1E731 /* XCRemoteSwiftPackageReference "Gedatsu" */,
+			);
 			productRefGroup = 1FD8E1AC2509AC9100A1E731 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -181,8 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD8E1BB2509AC9400A1E731 /* LaunchScreen.storyboard in Resources */,
+				1FD8E1EA2509B44200A1E731 /* Localizable.strings in Resources */,
 				1FD8E1B82509AC9400A1E731 /* Assets.xcassets in Resources */,
-				1FD8E1B62509AC9100A1E731 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +251,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FD8E1E42509B34F00A1E731 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		1FD8E1E52509B35900A1E731 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "(cd $PROJECT_DIR/Scripts && ./swiftgen.sh)\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FD8E1A72509AC9100A1E731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD8E1B32509AC9100A1E731 /* ViewController.swift in Sources */,
+				1FD8E1EE2509B49800A1E731 /* MainViewController.swift in Sources */,
 				1FD8E1AF2509AC9100A1E731 /* AppDelegate.swift in Sources */,
 				1FD8E1B12509AC9100A1E731 /* SceneDelegate.swift in Sources */,
 			);
@@ -225,20 +320,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1FD8E1B42509AC9100A1E731 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FD8E1B52509AC9100A1E731 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1FD8E1B92509AC9400A1E731 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1FD8E1BA2509AC9400A1E731 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1FD8E1EC2509B44200A1E731 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD8E1EB2509B44200A1E731 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -294,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -364,11 +459,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXPF567M57;
-				INFOPLIST_FILE = FREEZY/Info.plist;
+				INFOPLIST_FILE = FREEZY/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.novella.FREEZY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -382,11 +479,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXPF567M57;
-				INFOPLIST_FILE = FREEZY/Info.plist;
+				INFOPLIST_FILE = FREEZY/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.novella.FREEZY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -469,6 +568,87 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FD8E1D12509B09500A1E731 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		1FD8E1D62509B0CA00A1E731 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		1FD8E1D92509B18000A1E731 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		1FD8E1DE2509B1A400A1E731 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		1FD8E1E12509B1F300A1E731 /* XCRemoteSwiftPackageReference "Gedatsu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:bannzai/Gedatsu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FD8E1D22509B09500A1E731 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD8E1D12509B09500A1E731 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		1FD8E1D42509B09500A1E731 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD8E1D12509B09500A1E731 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		1FD8E1D72509B0CA00A1E731 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD8E1D62509B0CA00A1E731 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		1FD8E1DA2509B18000A1E731 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD8E1D92509B18000A1E731 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		1FD8E1DC2509B18000A1E731 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD8E1D92509B18000A1E731 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		1FD8E1DF2509B1A400A1E731 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD8E1DE2509B1A400A1E731 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		1FD8E1E22509B1F300A1E731 /* Gedatsu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD8E1E12509B1F300A1E731 /* XCRemoteSwiftPackageReference "Gedatsu" */;
+			productName = Gedatsu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1FD8E1A32509AC9100A1E731 /* Project object */;
 }
